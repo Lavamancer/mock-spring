@@ -38,7 +38,7 @@ public class ErrorController {
 
     @GetMapping("/public/errors/i-am-a-teapot")
     public ResponseEntity<ErrorMessage> getIAmATeapot() {
-        return ResponseEntity.status(HttpStatus.I_AM_A_TEAPOT).body(new ErrorMessage(418, "I am a Teapot :)"));
+        return ResponseEntity.status(HttpStatus.I_AM_A_TEAPOT).body(new ErrorMessage(418, "I am a Teapot :P"));
     }
 
 
